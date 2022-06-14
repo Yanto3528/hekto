@@ -1,6 +1,6 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
-import { FlexProps } from './Flex.type';
+import { FlexProps } from './Flex.type'
 
 export const Flex = styled.div<Partial<FlexProps>>`
   display: flex;
@@ -8,4 +8,4 @@ export const Flex = styled.div<Partial<FlexProps>>`
   justify-content: ${({ justify }) => justify};
   gap: ${({ gap }) => gap};
   flex-direction: ${({ direction }) => direction};
-`;
+`
